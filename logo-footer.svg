@@ -1,0 +1,17 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(50, 35)">
+    <!-- Nucleus -->
+    <circle cx="0" cy="0" r="12" fill="#4dd9e8"/>
+    <circle cx="0" cy="0" r="8" fill="#3dd9d9"/>
+    
+    <!-- Orbital rings -->
+    <ellipse cx="0" cy="0" rx="38" ry="23" fill="none" stroke="#4dd9e8" stroke-width="3" opacity="0.8" transform="rotate(-20)"/>
+    <ellipse cx="0" cy="0" rx="38" ry="23" fill="none" stroke="#4dd9e8" stroke-width="3" opacity="0.8" transform="rotate(40)"/>
+    <ellipse cx="0" cy="0" rx="38" ry="23" fill="none" stroke="#4dd9e8" stroke-width="3" opacity="0.8" transform="rotate(100)"/>
+    
+    <!-- Electrons -->
+    <circle cx="38" cy="0" r="5" fill="#4dd9e8"/>
+    <circle cx="-19" cy="33" r="5" fill="#4dd9e8"/>
+    <circle cx="-19" cy="-33" r="5" fill="#4dd9e8"/>
+  </g>
+</svg>

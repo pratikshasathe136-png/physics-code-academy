@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Physics Code Academy - JEE NEET Coaching</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="nav-container">
+    <div class="logo">
+      <i class="fas fa-atom"></i>
+      <h2>Physics Code Academy</h2>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="#courses">Courses</a>
+      <a href="about.html">About</a>
+      <a href="teachers.html">Teachers</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="payment.html">Payment</a>
+      <a href="contact.html">Contact</a>
+      <a href="admin.html" class="admin-link">Admin</a>
+    </div>
+    <div class="mobile-menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1>Live Online Physics Classes with <span class="highlight">Srujan Sir</span></h1>
+    <p>Basic to advanced level problem solving for JEE | NEET | MHT-CET | Boards</p>
+    <div class="hero-stats">
+      <div class="stat">
+        <h3>250+</h3>
+        <p>Students Mentored</p>
+      </div>
+      <div class="stat">
+        <h3>95%</h3>
+        <p>Success Rate</p>
+      </div>
+      <div class="stat">
+        <h3>2+</h3>
+        <p>Years Teaching</p>
+      </div>
+    </div>
+    <div class="hero-buttons">
+      <a href="payment.html" class="btn btn-primary">Pay Now</a>
+      <a href="contact.html" class="btn btn-secondary">Book Free Demo</a>
+    </div>
+  </div>
+  <div class="hero-image">
+    <div class="floating-elements">
+      <div class="element physics-icon"><i class="fas fa-atom"></i></div>
+      <div class="element math-icon"><i class="fas fa-calculator"></i></div>
+      <div class="element book-icon"><i class="fas fa-book-open"></i></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROGRAMS -->
+<section id="courses" class="section courses-section">
+  <div class="container">
+    <h2>Programs for 11th & 12th Grade</h2>
+    <p class="section-subtitle">Structured batches for JEE, NEET, MHT-CET and Boards</p>
+
+    <div class="courses-grid">
+
+      <div class="course-card featured">
+        <div class="course-badge">JEE Batch</div>
+        <div class="course-icon">
+          <i class="fas fa-graduation-cap"></i>
+        </div>
+        <h3>JEE Main + Advanced</h3>
+        <p>Deep concept building with advanced numerical practice and PYQ analysis.</p>
+        <div class="course-features">
+          <span><i class="fas fa-check"></i> Deep concept building</span>
+          <span><i class="fas fa-check"></i> Advanced numericals</span>
+          <span><i class="fas fa-check"></i> PYQ practice</span>
+        </div>
+        <div class="course-price">
+          <span class="discounted-price">₹3500/month</span>
+        </div>
+        <a href="payment.html" class="btn btn-primary">Pay Now</a>
+      </div>
+
+      <div class="course-card">
+        <div class="course-icon">
+          <i class="fas fa-notes-medical"></i>
+        </div>
+        <h3>NEET Physics</h3>
+        <p>Strong theory foundation and MCQ mastery aligned with NCERT and exam patterns.</p>
+        <div class="course-features">
+          <span><i class="fas fa-check"></i> NCERT + PYQ focus</span>
+          <span><i class="fas fa-check"></i> MCQ practice</span>
+          <span><i class="fas fa-check"></i> Doubt solving</span>
+        </div>
+        <div class="course-price">
+          <span class="discounted-price">₹3500/month</span>
+        </div>
+        <a href="payment.html" class="btn btn-primary">Pay Now</a>
+      </div>
+
+      <div class="course-card">
+        <div class="course-icon">
+          <i class="fas fa-bolt"></i>
+        </div>
+        <h3>MHT-CET Physics</h3>
+        <p>Focus on fast solving techniques, repeated patterns and high-percentile strategy.</p>
+        <div class="course-features">
+          <span><i class="fas fa-check"></i> Speed training</span>
+          <span><i class="fas fa-check"></i> Pattern practice</span>
+          <span><i class="fas fa-check"></i> Accuracy improvement</span>
+        </div>
+        <div class="course-price">
+          <span class="discounted-price">₹3000/month</span>
+        </div>
+        <a href="payment.html" class="btn btn-primary">Pay Now</a>
+      </div>
+
+      <div class="course-card">
+        <div class="course-icon">
+          <i class="fas fa-school"></i>
+        </div>
+        <h3>Board Physics</h3>
+        <p>Clear theory, answer writing practice and focused board exam training.</p>
+        <div class="course-features">
+          <span><i class="fas fa-check"></i> Theory clarity</span>
+          <span><i class="fas fa-check"></i> Important derivations</span>
+          <span><i class="fas fa-check"></i> PYQ training</span>
+        </div>
+        <div class="course-price">
+          <span class="discounted-price">₹3000/month</span>
+        </div>
+        <a href="payment.html" class="btn btn-primary">Pay Now</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section id="about" class="section why-section">
+  <div class="container">
+    <h2>Why Physics Code?</h2>
+    <p class="section-subtitle">Focused coaching with direct mentorship</p>
+
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-brain"></i>
+        </div>
+        <h3>Logic, Not Ratta</h3>
+        <p>We teach physics through logic and understanding, not memorization.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-bullseye"></i>
+        </div>
+        <h3>Exam-Oriented Training</h3>
+        <p>Lessons are designed for JEE, NEET, MHT-CET and board exam success.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-user-check"></i>
+        </div>
+        <h3>Direct Mentorship</h3>
+        <p>Learn directly from Srujan Sir with personalised guidance and doubt support.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-chart-line"></i>
+        </div>
+        <h3>Performance Focus</h3>
+        <p>Weekly tests, mistake analysis and score improvement sessions keep you on track.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ENROLL SECTION -->
+<section class="section register-section">
+  <div class="container">
+    <div class="register-container">
+      <div class="register-content">
+        <h2>Book Your Free Demo</h2>
+        <p>Experience Srujan Sir’s teaching in a live demo and decide your batch with confidence.</p>
+        <div class="register-benefits">
+          <div class="benefit">
+            <i class="fas fa-check-circle"></i>
+            <span>Free Demo Lecture</span>
+          </div>
+          <div class="benefit">
+            <i class="fas fa-check-circle"></i>
+            <span>Premium Study Material</span>
+          </div>
+          <div class="benefit">
+            <i class="fas fa-check-circle"></i>
+            <span>Doubt Solving Support</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="register-form-container">
+        <form id="registerForm" class="register-form">
+          <h3>Request Demo</h3>
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Full Name" required>
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Email Address" required>
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="form-group">
+            <input type="tel" id="phone" placeholder="Mobile Number" required>
+            <i class="fas fa-phone"></i>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Request Demo</button>
+          <p class="form-note">Or secure your batch directly through the <a href="payment.html">Payment page</a>.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact-section">
+  <div class="container">
+    <h2>Get In Touch</h2>
+    <p class="section-subtitle">We're here to help you succeed</p>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="contact-icon">
+          <i class="fas fa-phone"></i>
+        </div>
+        <h3>Call Us</h3>
+        <p>+91 9067342411</p>
+        <p>Mon-Sat: 9AM-8PM</p>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-icon">
+          <i class="fas fa-envelope"></i>
+        </div>
+        <h3>Email Us</h3>
+        <p>thephysicscodes@gmail.com</p>
+        <p>Response within 24 hours</p>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-icon">
+          <i class="fas fa-map-marker-alt"></i>
+        </div>
+        <h3>Visit Us</h3>
+        <p>Online Classes Available</p>
+        <p>Personal & Group Sessions</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="statistics-section">
+  <div class="container">
+    <div class="stats-container">
+      <div class="stat-box">
+        <h3>5000+</h3>
+        <p>Students Trained</p>
+      </div>
+      <div class="stat-box">
+        <h3>95%</h3>
+        <p>Success Rate</p>
+      </div>
+      <div class="stat-box">
+        <h3>10+</h3>
+        <p>Years Experience</p>
+      </div>
+      <div class="stat-box">
+        <h3>500+</h3>
+        <p>5-Star Reviews</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="section faq-section">
+  <div class="container">
+    <h2>Frequently Asked Questions</h2>
+    <p class="section-subtitle">Find answers to common questions</p>
+    
+    <div class="faq-container">
+      <div class="faq-item">
+        <div class="faq-question">
+          <h4>What is the course duration?</h4>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          <p>Course duration depends on the batch you choose. JEE batches typically run for 12-18 months, while board focused batches are 6-12 months. NEET batches are customized based on your preparation level.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <h4>Do you provide online classes?</h4>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          <p>Yes! We provide both online and offline classes. Our online classes are live, interactive, and recorded for later reference. You can attend from anywhere with internet connectivity.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <h4>Is there a money-back guarantee?</h4>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          <p>Yes, we offer a 7-day money-back guarantee if you're not satisfied with our teaching quality. No questions asked. Your satisfaction is our priority.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <h4>What if I miss a class?</h4>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          <p>All classes are recorded and available in the student portal. You can watch recorded lectures anytime. Plus, you can attend the same lecture in any other batch.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <h4>Do you provide study materials?</h4>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          <p>Yes, comprehensive study materials including notes, previous year papers, important formulas, and question banks are provided for all courses.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <h4>How do I get admission?</h4>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          <p>Simply fill the registration form, attend a free demo class, and enroll. No entrance exam required. You can start immediately after enrollment.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA SECTION -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-content">
+      <h2>Ready to Master Physics?</h2>
+      <p>Book a free demo or secure your seat with direct payment.</p>
+      <a href="payment.html" class="btn btn-primary btn-large">Go to Payment</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<section id="testimonials" class="section testimonials-section">
+  <div class="container">
+    <h2>Student Success Stories</h2>
+    <p class="section-subtitle">Hear from students who achieved their dreams</p>
+    
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p class="testimonial-text">"The physics concepts were explained so clearly. I improved from 45% to 92% in my board exams. Highly recommended!"</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">RK</div>
+          <div class="author-info">
+            <h4>Rajesh Kumar</h4>
+            <p>JEE Main - 2025</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p class="testimonial-text">"Best physics coaching I found online. The problem-solving approach is unique and very effective. Got 156/180 in physics!"</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">PS</div>
+          <div class="author-info">
+            <h4>Priya Singh</h4>
+            <p>NEET - 2024</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p class="testimonial-text">"Teachers are extremely knowledgeable and patient. They make difficult concepts easy to understand. Worth every penny!"</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">AM</div>
+          <div class="author-info">
+            <h4>Arjun Mishra</h4>
+            <p>JEE Advanced - 2024</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="faq" class="section faq-section">
+  <div class="container">
+    <h2>Frequently Asked Questions</h2>
+    <p class="section-subtitle">Find answers to common questions</p>
+    
+    <div class="faq-container">
+      <div class="faq-item">
+        <div class="faq-question">
+          <h4>What is the course duration?</h4>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          <p>Course duration depends on the batch you choose. JEE batches typically run for 12-18 months, while board focused batches are 6-12 months. NEET batches are customized based on your preparation level.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <h4>Do you provide online classes?</h4>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          <p>Yes! We provide both online and offline classes. Our online classes are live, interactive, and recorded for later reference. You can attend from anywhere with internet connectivity.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <h4>Is there a money-back guarantee?</h4>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          <p>Yes, we offer a 7-day money-back guarantee if you're not satisfied with our teaching quality. No questions asked. Your satisfaction is our priority.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <h4>What if I miss a class?</h4>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          <p>All classes are recorded and available in the student portal. You can watch recorded lectures anytime. Plus, you can attend the same lecture in any other batch.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <h4>Do you provide study materials?</h4>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          <p>Yes, comprehensive study materials including notes, previous year papers, important formulas, and question banks are provided for all courses.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <h4>How do I get admission?</h4>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          <p>Simply fill the registration form, attend a free demo class, and enroll. No entrance exam required. You can start immediately after enrollment.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA SECTION -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-content">
+      <h2>Ready to Master Physics?</h2>
+      <p>Book a free demo or reserve your seat with direct payment.</p>
+      <a href="payment.html" class="btn btn-primary btn-large">Go to Payment</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-section">
+        <div class="footer-logo">
+          <i class="fas fa-atom"></i>
+          <h3>Physics Code Academy</h3>
+        </div>
+        <p>Empowering students with logical thinking and conceptual clarity in Physics.</p>
+        <div class="social-links">
+          <a href="#" class="social-link youtube">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="#" class="social-link instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="social-link whatsapp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="#" class="social-link telegram">
+            <i class="fab fa-telegram"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Study Material</a></li>
+          <li><a href="#">Mock Tests</a></li>
+          <li><a href="#">Doubt Clearing</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Stay Updated</h4>
+        <p>Subscribe for latest updates and study tips</p>
+        <div class="newsletter">
+          <input type="email" placeholder="Enter your email">
+          <button class="btn btn-primary">Subscribe</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Physics Code Academy. All rights reserved.</p>
+      <p>Made with <i class="fas fa-heart"></i> for students</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

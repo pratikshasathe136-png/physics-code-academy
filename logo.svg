@@ -1,0 +1,31 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background -->
+  <rect width="800" height="600" fill="#0f172a"/>
+  
+  <!-- Atom symbol -->
+  <g transform="translate(400, 180)">
+    <!-- Nucleus (center circle) -->
+    <circle cx="0" cy="0" r="30" fill="#3dd9d9" opacity="0.9"/>
+    
+    <!-- Orbital paths -->
+    <ellipse cx="0" cy="0" rx="100" ry="60" fill="none" stroke="#3dd9d9" stroke-width="8" opacity="0.7" transform="rotate(0)"/>
+    <ellipse cx="0" cy="0" rx="100" ry="60" fill="none" stroke="#3dd9d9" stroke-width="8" opacity="0.7" transform="rotate(60)"/>
+    <ellipse cx="0" cy="0" rx="100" ry="60" fill="none" stroke="#3dd9d9" stroke-width="8" opacity="0.7" transform="rotate(120)"/>
+    
+    <!-- Electron dots -->
+    <circle cx="100" cy="0" r="12" fill="#3dd9d9"/>
+    <circle cx="-50" cy="86.6" r="12" fill="#3dd9d9"/>
+    <circle cx="-50" cy="-86.6" r="12" fill="#3dd9d9"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#3dd9d9" text-anchor="middle" letter-spacing="2">
+    PHYSICS CODE
+  </text>
+  
+  <line x1="200" y1="410" x2="600" y2="410" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+  
+  <text x="400" y="470" font-family="Arial, sans-serif" font-size="48" font-weight="300" fill="#ffffff" text-anchor="middle" letter-spacing="4">
+    ACADEMY
+  </text>
+</svg>
