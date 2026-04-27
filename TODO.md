@@ -1,11 +1,13 @@
 # Deployment TODO
 
-## Step 1: Git Setup & GitHub Push
-- [ ] Check if Git is installed
-- [ ] Initialize git repository
-- [ ] Update .gitignore
-- [ ] Commit all files
-- [ ] Push to GitHub
+## Step 1: Git Setup & GitHub Push ✅ COMPLETE
+- [x] Check if Git is installed
+- [x] Initialize git repository
+- [x] Update .gitignore
+- [x] Commit all files
+- [x] Push to GitHub
+
+**Repository:** https://github.com/pratikshasathe136-png/physics-code-academy
 
 ## Step 2: Render Deployment
 - [ ] Sign up on Render (via GitHub)
@@ -19,4 +21,3 @@
 - [ ] Test website on mobile/tablet
 - [ ] Test admin panel
 - [ ] Confirm all pages load correctly
-
