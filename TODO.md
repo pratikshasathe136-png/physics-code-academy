@@ -9,7 +9,7 @@
 
 **Repository:** https://github.com/pratikshasathe136-png/physics-code-academy
 
-## Step 2: Render Deployment
+## Step 2: Render Deployment 🔄 IN PROGRESS
 - [ ] Sign up on Render (via GitHub)
 - [ ] Create free PostgreSQL database
 - [ ] Create Web Service from GitHub repo
