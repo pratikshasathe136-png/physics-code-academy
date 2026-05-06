@@ -100,6 +100,15 @@ nav {
   color: var(--text-light);
 }
 
+/* Navbar title positioning tweaks */
+.logo h2 {
+  margin: 0;
+  font-size: 1.3rem;
+  position: relative;
+  top: -2px; /* slight upward adjustment */
+}
+
+
 .logo i {
   font-size: 2rem;
   color: var(--primary-color);
@@ -108,7 +117,7 @@ nav {
 .logo-svg {
   width: 45px;
   height: 40px;
-  display: flex;
+  display: block;
 }
 
 .nav-links {
@@ -1229,17 +1238,26 @@ footer {
 
 /* PAGE HERO SECTION */
 .hero-page {
-  background: linear-gradient(135deg, var(--primary-color), #1e40af);
+  /* Premium background (no external image required) */
+  background:
+    radial-gradient(1200px 500px at 15% 30%, rgba(30, 58, 138, 0.95), rgba(30, 58, 138, 0) 60%),
+    radial-gradient(900px 450px at 85% 20%, rgba(30, 64, 175, 0.95), rgba(30, 64, 175, 0) 55%),
+    linear-gradient(135deg, rgba(13, 71, 161, 0.95), rgba(30, 64, 175, 0.95));
+
   padding: 60px 0;
   text-align: center;
   color: var(--text-light);
 }
 
+/* Hero heading color fix on About page */
 .hero-page h1 {
+  color: #ffffff;
+  text-shadow: 0 4px 20px rgba(0,0,0,0.35);
   font-size: 3rem;
   font-weight: 900;
   margin-bottom: 0.5rem;
 }
+
 
 .hero-page p {
   font-size: 1.2rem;
